@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: uptime-kuma
+  namespace: monitoring
+data:
+  TZ: "Europe/Stockholm"
